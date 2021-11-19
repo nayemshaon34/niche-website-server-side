@@ -9,21 +9,14 @@ const Footer = () => {
     const instagram = <FontAwesomeIcon icon={faFacebook} />;
     const twitter = <FontAwesomeIcon icon={faTwitter} />;
     return (
-        <div className="footer-container mt-5 card-contain">
+        <div className="footer-container mt-1 card-contain">
             <div className="container">
                 {/* subscribe box */}
-            <h1 className="subscribe-letter text-center">Subscribe to our Newsletter for latest news.</h1>
-                <div className="subscribe-box my-5 text-center">  
-                    <input className="mb-sm-5" type="text" placeholder="Your Email"/>
-                    <button class="submit-newsletter button_outline text-center mt-lg-0 mt-3"> SUBSCSRIBE</button>                
-                </div>
-                <hr />
-
-
+            
                 {/* smart head */}
-                <div className="row footer-info mt-5">
+                <div className="row footer-info mt-0">
                     <div className="col-lg-5">
-                        <h1  className="text-center">Holiday Hype</h1>
+                        <h1  className="text-center">Camera World</h1>
                         <p  className="text-center">Et scaevola delicata vix, mea ei invidunt quodsi eripuit definiebas at pri. Placerat voluptaria meleos malis civibus an dolor</p>
                     </div>
 
@@ -38,7 +31,7 @@ const Footer = () => {
 
 
                         {/*Contacts  */}
-                    <div className="col-lg-5 mb-5">
+                    <div className="col-lg-5 mb-1">
                         <h1 className="text-center">Our Contacts</h1>
                         <p className="text-center">350 Avenue, New York, NY 10001</p>
                         <p className="text-center">info@example.com</p>

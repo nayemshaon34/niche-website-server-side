@@ -1,0 +1,92 @@
+[
+  {
+    "isActive": true,
+    "isOrdered": false,
+    "isManaged": false,
+    "image": "https://i.ibb.co/yPW2pJZ/5d-mark-iv-24-105-f4-ii.jpg",
+    "name": "Canon EOS 5D Mark IV ",
+    "description":"Bringing together the very best of their EOS 5D-Range and added 4K Movie capture along with so much more, this is an ideal camera for both photographers and videographers alike",
+    "price":3799
+  },
+  {
+    "isActive": false,
+    "isOrdered": true,
+    "isManaged": false,
+    "image": "https://i.ibb.co/HpgvZWK/90d-18-135-1.jpg",
+    "name": "Canon EOS 90D",
+    "description":"Situated as a versatile camera with capable photo and video traits, the Canon EOS 90D is a sleek DSLR also characterized by its high-resolution 32.5MP APS-C CMOS sensor",
+    "price":1570
+  },
+  {
+    "isActive": false,
+    "isOrdered": false,
+    "isManaged": false,
+    "image": "https://i.ibb.co/0QYm7LS/850d-18-55-1.jpg",
+    "name": "Canon EOS 850D",
+    "description":"Take the next step in creative control, capturing beautifully detailed photos and stunning 4K movies with a lightweight and connected DSLR that inspires and rewards.",
+    "price":928
+  },
+  {
+    "isActive": true,
+    "isOrdered": true,
+    "isManaged": true,
+    "image": "https://i.ibb.co/5GfYLjH/a7-iii-1.jpg",
+    "name": "Sony A7 III Mirrorless Camera",
+    "description":"Capture the peaks of more decisive moments with the α7 III from Sony packing newly developed back-illuminated full-frame CMOS sensor and other advanced imaging innovations, high-speed response",
+    "price":1499
+  },
+  {
+    "isActive": false,
+    "isOrdered": true,
+    "isManaged": true,
+    "image": "https://i.ibb.co/NSmtsQN/d780-24-120-1.png",
+    "name": "Nikon D780 DSLR Camera",
+    "description":"The tough D780 boasts a fast, dedicated Hybrid-AF system for Live View shooting, and a fast, powerful 51-point Phase-Detection AF system for viewfinder shooting.",
+    "price":2289
+  },
+  {
+    "isActive": true,
+    "isOrdered": true,
+    "isManaged": true,
+    "image": "https://i.ibb.co/XDSjfdC/d850-bf1b-front-high-1.jpg",
+    "name": "Nikon D850",
+    "description":"Nikon D850 is a 46.0MP Advanced DSLR camera with a Full frame (35.9 x 23.9 mm ) sized BSI-CMOS sensor, ease of operation, and reliable durability that are ready for various shooting needs.",
+    "price":2459
+  },
+  {
+    "isActive": false,
+    "isOrdered": false,
+    "isManaged": true,
+    "image": "https://i.ibb.co/JtK6JXx/eos-6d-ii-50mm-f18-1.jpg",
+    "name": "Canon EOS 6D Mark II",
+    "description":"Enjoy improved image quality, more control over depth of field and superb low-light performance thanks to a full-frame sensor that packs 26.2-megapixel resolution",
+    "price":1379
+  },
+  {
+    "isActive": false,
+    "isOrdered": false,
+    "isManaged": true,
+    "image": "https://i.ibb.co/JtK6JXx/eos-6d-ii-50mm-f18-1.jpg",
+    "name": "Canon EOS 6D Mark II",
+    "description":"Enjoy improved image quality, more control over depth of field and superb low-light performance thanks to a full-frame sensor that packs 26.2-megapixel resolution",
+    "price":1379
+  },
+  {
+    "isActive": false,
+    "isOrdered": false,
+    "isManaged": true,
+    "image": "https://i.ibb.co/B4NVvnK/p8036748.jpg",
+    "name": "Nikon Z6 Mirrorless Camera",
+    "description":"Nikon Z6 is a 25.0MP Pro Mirrorless camera with a Full frame (35.9 x 23.9 mm ) sized BSI-CMOS sensor,, ease of operation, and reliable durability that are ready for various shooting needs.",
+    "price":1949
+  },
+  {
+    "isActive": false,
+    "isOrdered": false,
+    "isManaged": true,
+    "image": "https://i.ibb.co/t4hwyK2/pb098528.jpg",
+    "name": "Canon EOS R Mirrorless Camera",
+    "description":"Canon EOS R is a 30.0MP Pro Mirrorless camera with a Full frame (36 x 24 mm ) sized CMOS sensor",
+    "price":1349
+  }
+]

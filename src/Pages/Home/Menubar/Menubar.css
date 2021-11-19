@@ -1,0 +1,12 @@
+.color{
+    color:rgb(241, 235, 226);
+    text-decoration: none;
+}
+.header-color{
+    color:rgb(238, 233, 225);
+    display: flex;
+    align-items: center;
+}
+.text-decoration{
+    text-decoration: none;
+}

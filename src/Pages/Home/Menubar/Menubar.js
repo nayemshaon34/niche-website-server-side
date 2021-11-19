@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
 import './Menubar.css';
 
 const Menubar = () => {
-    const {user,handleLogout} = useAuth();
+    const {user,logout} = useAuth();
     return (
         <div>
             
@@ -13,7 +13,7 @@ const Menubar = () => {
 <Navbar bg="dark" expand="lg">
   <Container className="p-xl-1">
   <Navbar.Brand>
-  <h4 className="header-color my-auto">Holiday Hype</h4>
+  <NavLink to="/home" className="header-color my-auto color text-decoration-none fs-3">Camera World</NavLink>
   </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
@@ -27,31 +27,22 @@ const Menubar = () => {
                             </li>
                             
                             <li className="nav-item">
-                                <NavLink className="text-decoration-none me-5 color" to="/tours" activeStyle={{fontWeight: "bold",color: "red"}}>Tours</NavLink>
+                                <NavLink className="text-decoration-none me-5 color" to="/items" activeStyle={{fontWeight: "bold",color: "red"}}>Camera Items</NavLink>
                             </li>
-                            {
-                                user.email&&<li className="nav-item">
-                                <NavLink className="text-decoration-none me-5 color"to="/myOrder" activeStyle={{fontWeight: "bold",color: "red"}}>Your Order</NavLink>
-                            </li>
-                            }
+                            
                             {
                                 user.email &&<li className="nav-item">
-                                <NavLink className="text-decoration-none me-5 color" to="/manageOrders" activeStyle={{fontWeight: "bold",color: "red"}}>Manage Orders</NavLink>
+                                <NavLink className="text-decoration-none me-5 color" to="/dashboard" activeStyle={{fontWeight: "bold",color: "red"}}>Dashboard</NavLink>
                             </li>
                             }
 
-                            {
-                                user.email&&<li className="nav-item">
-                                <NavLink className="text-decoration-none me-5 color" to="/addService" activeStyle={{fontWeight: "bold",color: "red"}}>Add Service</NavLink>
-                            </li>
-                            }
 
                             <li>
                             {user.email && <span style={{ color: 'white' }}>Hello {user.displayName} </span>}
                             </li>
                             {
                                 user.email?<li>
-                                    <button className="btn btn-danger ms-0 btn-sm ms-lg-4" onClick={handleLogout}>Sign Out</button>
+                                    <button className="btn btn-danger ms-0 btn-sm ms-lg-4" onClick={logout}>Sign Out</button>
                                 </li>
                             :
                                 <li className="nav-item">

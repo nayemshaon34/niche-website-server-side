@@ -1,0 +1,32 @@
+.banner-container{
+    background-image: url('https://i.ibb.co/bspTmfm/reinhart-julian-Wx-M465o-M4j4-unsplash.jpg');
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;    
+}
+
+.title{
+    margin: 220px;
+}
+.card-contain{
+    overflow-x: hidden;
+}
+@media only screen and (max-width: 600px) {
+    .banner-container {
+    /* The file size of this background image is 93% smaller
+    to improve page load speed on mobile internet connections */
+    background-image: url('https://i.ibb.co/bspTmfm/reinhart-julian-Wx-M465o-M4j4-unsplash.jpg');
+   
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 525px;
+    }
+}
