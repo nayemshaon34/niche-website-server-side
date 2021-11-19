@@ -165,6 +165,13 @@ async function run(){
             console.log(result);
             res.json(result);
         })
+
+
+        app.get('/review',async(req,res)=>{
+            const cursor = reviewCollection.find({}); //for getting all data
+            const result = await cursor.toArray();
+            res.json(result);
+        })
         
         
 
