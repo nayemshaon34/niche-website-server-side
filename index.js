@@ -15,7 +15,7 @@ const port = process.env.PORT || 4000;
 // middleware
 // 
 
-var serviceAccount = require("./niche-website-firebase-adminsdk");
+var serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
